@@ -1,0 +1,133 @@
+/*  page & post style*/
+.content-area{
+    position: relative;
+    top:60px;
+    margin-bottom: 80px;
+}
+.form-submit {
+    display: none;
+}
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+    width: 50%;
+}
+.footer {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    height: 70px;
+    background: #000;
+    color: #D2D0D0;
+}
+.footer-text-left{
+    text-align: left;
+}
+.footer-text-right{
+    text-align: right;
+}
+
+.footer-text-left,
+.footer-text-right{
+    padding-top: 8px;
+}
+.footer-text-left a,
+.footer-text-right a{
+    text-decoration: none;
+    color: #1abc9c;
+    font-weight: 500;
+}
+
+.footer-logo-img{
+    text-align: center;
+    padding-top: 6px;
+}
+.footer-logo-img img{
+    height: 30px;
+    width: auto;
+}
+.team-detail-title{
+    font-size: 40px;
+    text-align: left;
+}
+.team-detail-designation{
+    font-size: 20px;
+    text-align: left;
+}
+.team-detail-bio{
+    text-align: justify;
+    margin: 7px auto;
+}
+.team-detail-close{
+    text-align: left;
+}
+.modal-team-social-icon{
+    padding: 10px 0;
+    text-align: left;
+}
+.modal-team-social-icon a i{
+    border: 1px solid #1ABC9C;
+    font-size: 20px;
+    padding: 5px;
+    color: #1ABC9C;
+}
+.modal-team-social-icon a i:hover{
+    border: 1px solid #1D1C1A;
+    color: #1D1C1A;
+}
+.block-1,.block-2, .block-3, .block-4, .block-5{
+    padding: 0px;
+}
+.block-1{
+    height: 400px;
+}
+.block-2{
+    height: 200px;
+}
+.block-3{
+    height: 200px;
+}
+.block-4{
+    width: 100%;
+    height: 200px;
+}
+.block-5{
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.padless{
+    padding: 0px;
+}
+div.effect div.caption h4{
+    text-align: left;
+    padding: 20px;
+}
+div.effect div.caption h4 a{
+    color: white;
+    text-decoration: none;
+}
+div.effect div.caption p{
+    color: white;
+    text-align: justify;
+    padding: 0 20px;
+}
+div.effect div.caption a{
+    margin-left: 20px;
+}
+div.effect div.caption h4 a:hover{
+    color: #1ABC9C;
+}
+#feedback input.form-control{
+    padding: 0 10px!important;
+}
+#feedback .btn-primary{
+    color: #1ABC9C;
+    font-weight: bolder;
+}
+#feedback .btn-primary:hover, #feedback .btn-primary:active, #feedback .btn-primary:focus, #feedback .btn-primary:visited{
+    color: white;
+}
+.footer-widgets{
+    float: left;
+}
